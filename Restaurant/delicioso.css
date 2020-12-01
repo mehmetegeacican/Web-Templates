@@ -1,0 +1,20 @@
+.header {
+    background: url('/assets/delicioso2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+  }@media screen and (max-width: 670px){
+    header{
+      min-height: 500px;
+    }
+  }
+.about-letter{
+    font-family: cursive;
+}
+input:focus {
+    border-bottom: 1px solid darkred !important;
+    box-shadow: 0 1px 0 0 darkred !important;
+  }
+  input:checked{
+    background-color: #ff9800;
+}
