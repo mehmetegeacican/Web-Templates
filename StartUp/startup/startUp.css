@@ -1,0 +1,218 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    -webkit-font-smoothing:antialised;
+    text-rendering: optimizeLegibility;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#333;
+}
+h6{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+img{
+    max-width: 100%;
+}
+.blockquote{
+    font-size: 1.6em;
+    color:#333;
+    border:none;
+    padding: 0;
+}
+.blockquote-footer{
+    margin: 1rem 0 0;
+}
+#stage{
+    background: url('../assets/coffee.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption{
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+#stage-caption h1{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature-content{
+    padding: 8rem 0;
+    overflow:hidden;
+
+}
+.dark-feature{
+    background-color: #111;
+    color:white
+}
+.dark-feature h2,h6{
+    color:white
+}
+#main-footer{
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+#main-footer h6{
+    color:#718FA9;
+}
+#main-footer a{
+    color:#6C5F73
+}
+#Contact .contact-wrapper {
+    border-right: none;
+    margin-right: 0;
+    padding: 0;
+  }
+#Contact .contact-wrapper span {
+    font-size: 18px;
+}
+.address-block,
+#Contact .address-block.border-bottom {
+    margin-bottom: 40px;
+    padding: 0 15px 30px;
+}
+#Contact .form-wrap {
+    width: 100%;
+    display: table-cell;
+  }
+  #Contact .form-wrap .floating-label {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  #Contact .form-wrap .fname, #Contact .form-wrap .contact {
+    margin-right: 20px;
+  }
+  #Contact .form-wrap .user-msg {
+    width: 98%;
+    display: block;
+    margin-bottom: 40px;
+  }
+  #Contact .floating-input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    box-shadow: none;
+    background-color: transparent;
+    padding-top: 3px;
+  }
+  #Contact .floating-input:focus {
+    outline: 0;
+  }
+  #Contact label {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+    text-align: left;
+    color: #999999;
+    transition: top 0.2s ease-in-out;
+  }
+  #Contact .floating-input:focus~label, #Contact .floating-input.not-empty~label {
+    top: -18px;
+    font-size: 12px;
+    color: blueviolet;
+    transition: top 0.2s ease-in-out;
+  }
+  #Contact .submit-btn {
+    text-align: center;
+  }
+  #Contact .submit-btn button {
+    font-size: 16px;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  #Contact .submit-btn button:hover {
+      background-color: blueviolet;
+  }
+  .block-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#Contact .c-icon {
+    margin-right: 20px;
+  }
+  #Contact .contact-wrapper span i {
+    color: blueviolet;
+  }
+  .btn-outline-primary {
+    color: blueviolet;
+    background-image: none;
+    border-color: blueviolet;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.card {
+    border-radius: 20px;
+    background: #111111;
+    border: none;
+   
+}
+
+.card img {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #222, #333333);
+    box-shadow: 20px 20px 60px #222222, -20px -20px 60px #333333
+    
+}
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-linkedin {
+    color: #0077b5
+}
+
+.fa-google {
+    color: #dc4e41
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #222222, #333333);
+    box-shadow: 20px 20px 60px #222222, -20px -20px 60px #333333
+}
+
+.neo-button:active {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+}
